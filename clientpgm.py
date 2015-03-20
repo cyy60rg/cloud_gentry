@@ -27,7 +27,7 @@ print "cipher2 =", c2
 try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 except socket.error:
-    print 'Failed to create socket'
+    print 'Socket creation failed'
     sys.exit()
 
 s.connect((HOST, PORT))
@@ -48,12 +48,12 @@ while True:
     print "Cadd % p : ", res1
     print "Cmul % p : ", res2
     print ""
-    if Nos1 % 2 == 0:
+    if res1 % 2 == 0:
         print "even. Noise = ", res1
     else:
         print "odd. Noise = ", res1
   
-    if Nos2 % 2 == 0:
+    if res2 % 2 == 0:
         print "even. noise = ", res2
     else:
         print "odd. noise = ", res2
