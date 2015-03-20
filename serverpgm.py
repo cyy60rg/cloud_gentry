@@ -7,7 +7,7 @@ import sys
 try:
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 except:
-    print 'Failed to create socket'
+    print 'Socket creation failed'
     sys.exit()
 
 PORT = 8081
