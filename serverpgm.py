@@ -10,7 +10,7 @@ except:
     print 'Socket creation failed'
     sys.exit()
 
-PORT = 8081
+PORT = 6060
 HOST = '127.0.0.1'
 RECV_BUFFER = 4098
 
