@@ -5,7 +5,7 @@ import sys
 
 
 HOST = '127.0.0.1'
-PORT = 8081
+PORT = 6060
 p = input('p = ')
 q1 = input('q1 = ')
 r1 = input('r1 = ')
