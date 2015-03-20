@@ -43,19 +43,19 @@ while True:
     print " "
     print "Cmul = ", Cmul
     
-    Nos1 = int(Cadd) % p
-    Nos2 = int(Cmul) % p
-    print "Cadd % p : ", Nos1
-    print "Cmul % p : ", Nos2
+    res1 = int(Cadd) % p
+    res2 = int(Cmul) % p
+    print "Cadd % p : ", res1
+    print "Cmul % p : ", res2
     print ""
     if Nos1 % 2 == 0:
-        print "Number is even. Noise = ", Nos1
+        print "even. Noise = ", res1
     else:
-        print "Number is odd. Noise = ", Nos1
+        print "odd. Noise = ", res1
   
     if Nos2 % 2 == 0:
-        print "Number is even. Noise = ", Nos2
+        print "even. noise = ", res2
     else:
-        print "Number is odd. Noise = ", Nos2
+        print "odd. noise = ", res2
 
 s.close()
